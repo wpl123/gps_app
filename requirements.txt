@@ -4,7 +4,10 @@ exifread
 gpxpy
 itertools
 numpy
+opencv-python
 pandas
+piexif
+Pillow
 pyexiftool
 shapefile
 simplekml

@@ -8,7 +8,7 @@
 #
 # 1. Start GPS Logger on the Phone first and put on the dash of the plane (where gets best GPS signal)
 # 2. Start the Camera App 
-# 3. Start the camera recording on 1 second delay
+# 3. Start the camera recording on 3 second delay
 # 3. 
 #
 import cv2
