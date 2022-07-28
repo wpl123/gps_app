@@ -1,0 +1,8 @@
+dbfpy
+exif
+exifread
+gpxpy
+
+numpy
+pandas
+pyexiftool

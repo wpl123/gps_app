@@ -1,6 +1,0 @@
-cv2
-gpxpy
-numpy
-pandas
-
-pyexiftool
