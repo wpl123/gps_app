@@ -1,4 +1,4 @@
-# gps_app
+# Project Workflow
 
 Project to create an ortho image using GoPro images captured from light aircraft. The Gopro is mounted below the wing. A android device running the GPS Logger app is located on the dash.
 
@@ -18,12 +18,14 @@ Step 4: Run WebODM with the updated Gopro images to create the ortho rectified i
 
 ## Create The Flight Footprint with QGIS Plugin
 - In QGIS, create Flyover Footprint (Area of Interest)
-- Create the “Flight Plan Area” shape for the Area of Interest (AOI), with the QGIS polygon tool       
+- Create the “Flight Plan Area” shape for the Area of Interest (AOI), with the QGIS polygon tool  
+
+<img title="Area of Interest" alt="Screenshot - QGIS Polygon" src="readme_images/area_of_interest.png">
+
 - Right Click on the new AOI layer to;
     - Make Permanent the AOI layer to a ESRI Shapefile. 
     - Select Properties → symbology to change the color and opacity
-    - Ensure all fields are ticked
-        ◦ That CPRS is set to EPSG:28356
+    - Ensure all fields are ticked and that CPRS is set to EPSG:28356
 - Create a Group and move the new Shape into the Group
 
 
@@ -94,11 +96,11 @@ Back in the office;
 - Update the directory location of the saved images and the filename of the GPS waypoint file in make_layer_files.py
 - Run make_layer_files.py
 
-Note: make_layer_files.py uses the timestamp of the waypoint and the image to update EXIF record of each image
+Note: make_layer_files.py uses the timestamp of the waypoint and the image to update EXIF record in each image
 
 # Step 4: Run WebODM with the updated Gopro images 
 
 - Run the docker-compose.yml to create WebODM i.e. docker-compuse up -d
-- Go to https://community.opendronemap.org for a great community with help and advice
+- Go to https://community.opendronemap.org for a great community with help and advice to stitch the images together
 
 
