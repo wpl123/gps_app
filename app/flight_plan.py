@@ -62,14 +62,14 @@ def write_kml(waypts):
 #    multilin.style.linestyle.color = simplekml.Color.blue
 #    multilin.style.linestyle.width = 3  
     # save KML to a file
-    kml.save("FlyoverWaypoints.kml")
+    kml.save("FlyoverWaypoints_MiddleCreek_Roslyn.kml")
 
 
 
 def get_waypts():
     # https://pythonhosted.org/Python%20Shapefile%20Library/
     
-    sf = shapefile.Reader("app/AddedFields.dbf")
+    sf = shapefile.Reader("app/projection_centres_added_fields.dbf")
     tot_records = len(sf.records())
     
 #   Record #0: ['0001', '00001', 222992.13, 6615527.690000001, 887.1, 0.0, 0.0, 70.0, 150.112113479, -30.5607252593]
