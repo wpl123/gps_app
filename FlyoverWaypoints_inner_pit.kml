@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="6">
+            <IconStyle id="7">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="8">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="11">
+            <LineStyle id="12">
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+        </Style>
+        <Style id="16">
+            <IconStyle id="17">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="18">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0001
+ Lon   150.1100889171
+ Lat   -30.5851851589
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="29">
+            <IconStyle id="30">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="31">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0001
+ Lon   150.131823944
+ Lat   -30.5597366489
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="40">
+            <IconStyle id="41">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="42">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0002
+ Lon   150.1119839852
+ Lat   -30.5863970765
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="53">
+            <IconStyle id="54">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="55">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0002
+ Lon   150.1370616332
+ Lat   -30.5570326393
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="64">
+            <IconStyle id="65">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="66">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0003
+ Lon   150.1130429199
+ Lat   -30.5885876945
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="77">
+            <IconStyle id="78">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="79">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0003
+ Lon   150.1431346226
+ Lat   -30.553349444
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="88">
+            <IconStyle id="89">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="90">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0004
+ Lon   150.1149380912
+ Lat   -30.5897995751
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="101">
+            <IconStyle id="102">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="103">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0004
+ Lon   150.1475361731
+ Lat   -30.5516239289
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="112">
+            <IconStyle id="113">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="114">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0005
+ Lon   150.1159971251
+ Lat   -30.5919901746
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="125">
+            <IconStyle id="126">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="127">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0005
+ Lon   150.1502666333
+ Lat   -30.5518562874
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="136">
+            <IconStyle id="137">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="138">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0006
+ Lon   150.1178923996
+ Lat   -30.593202018
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="149">
+            <IconStyle id="150">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="151">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0006
+ Lon   150.1521616373
+ Lat   -30.5530676151
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="160">
+            <IconStyle id="161">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="162">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0007
+ Lon   150.1197877225
+ Lat   -30.5944138366
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="173">
+            <IconStyle id="174">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="175">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0007
+ Lon   150.1540566895
+ Lat   -30.554278918
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="184">
+            <IconStyle id="185">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="186">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0008
+ Lon   150.1216830936
+ Lat   -30.5956256304
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="197">
+            <IconStyle id="198">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="199">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0008
+ Lon   150.1559517899
+ Lat   -30.5554901959
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="208">
+            <IconStyle id="209">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="210">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0009
+ Lon   150.1319393322
+ Lat   -30.5870491614
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="221">
+            <IconStyle id="222">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="223">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0009
+ Lon   150.1578469385
+ Lat   -30.5567014491
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="232">
+            <IconStyle id="233">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="234">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0010
+ Lon   150.1371785533
+ Lat   -30.5843452499
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="245">
+            <IconStyle id="246">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="247">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0010
+ Lon   150.1572356895
+ Lat   -30.560849866
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="256">
+            <IconStyle id="257">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="258">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0011
+ Lon   150.1399098822
+ Lat   -30.5845778814
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="269">
+            <IconStyle id="270">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="271">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0011
+ Lon   150.1582954448
+ Lat   -30.5630401695
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="280">
+            <IconStyle id="281">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="282">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <BalloonStyle>
+                <text>Strip 0012
+ Lon   150.1434770931
+ Lat   -30.5838315192
+ Alt   790.32
+</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Folder id="2">
+            <name>A Folder</name>
+        </Folder>
+        <Placemark id="5">
+            <name>Points</name>
+            <styleUrl>#6</styleUrl>
+            <MultiGeometry id="4"/>
+        </Placemark>
+        <Placemark id="10">
+            <name>Flight Paths</name>
+            <styleUrl>#11</styleUrl>
+            <MultiGeometry id="9">
+                <LineString id="25">
+                    <coordinates>150.1100889171,-30.5851851589,790.32 150.131823944,-30.5597366489,790.32</coordinates>
+                </LineString>
+                <LineString id="49">
+                    <coordinates>150.1119839852,-30.5863970765,790.32 150.1370616332,-30.5570326393,790.32</coordinates>
+                </LineString>
+                <LineString id="73">
+                    <coordinates>150.1130429199,-30.5885876945,790.32 150.1431346226,-30.553349444,790.32</coordinates>
+                </LineString>
+                <LineString id="97">
+                    <coordinates>150.1149380912,-30.5897995751,790.32 150.1475361731,-30.5516239289,790.32</coordinates>
+                </LineString>
+                <LineString id="121">
+                    <coordinates>150.1159971251,-30.5919901746,790.32 150.1502666333,-30.5518562874,790.32</coordinates>
+                </LineString>
+                <LineString id="145">
+                    <coordinates>150.1178923996,-30.593202018,790.32 150.1521616373,-30.5530676151,790.32</coordinates>
+                </LineString>
+                <LineString id="169">
+                    <coordinates>150.1197877225,-30.5944138366,790.32 150.1540566895,-30.554278918,790.32</coordinates>
+                </LineString>
+                <LineString id="193">
+                    <coordinates>150.1216830936,-30.5956256304,790.32 150.1559517899,-30.5554901959,790.32</coordinates>
+                </LineString>
+                <LineString id="217">
+                    <coordinates>150.1319393322,-30.5870491614,790.32 150.1578469385,-30.5567014491,790.32</coordinates>
+                </LineString>
+                <LineString id="241">
+                    <coordinates>150.1371785533,-30.5843452499,790.32 150.1572356895,-30.560849866,790.32</coordinates>
+                </LineString>
+                <LineString id="265">
+                    <coordinates>150.1399098822,-30.5845778814,790.32 150.1582954448,-30.5630401695,790.32</coordinates>
+                </LineString>
+                <LineString id="289">
+                    <coordinates>150.1434770931,-30.5838315192,790.32 150.1593552443,-30.5652304666,790.32</coordinates>
+                </LineString>
+            </MultiGeometry>
+        </Placemark>
+        <Folder id="13">
+            <Style id="22">
+                <IconStyle id="23">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="24">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="35">
+                <IconStyle id="36">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="37">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="46">
+                <IconStyle id="47">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="48">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="59">
+                <IconStyle id="60">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="61">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="70">
+                <IconStyle id="71">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="72">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="83">
+                <IconStyle id="84">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="85">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="94">
+                <IconStyle id="95">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="96">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="107">
+                <IconStyle id="108">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="109">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="118">
+                <IconStyle id="119">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="120">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="131">
+                <IconStyle id="132">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="133">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="142">
+                <IconStyle id="143">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="144">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="155">
+                <IconStyle id="156">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="157">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="166">
+                <IconStyle id="167">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="168">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="179">
+                <IconStyle id="180">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="181">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="190">
+                <IconStyle id="191">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="192">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="203">
+                <IconStyle id="204">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="205">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="214">
+                <IconStyle id="215">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="216">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="227">
+                <IconStyle id="228">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="229">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="238">
+                <IconStyle id="239">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="240">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="251">
+                <IconStyle id="252">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="253">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="262">
+                <IconStyle id="263">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="264">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="275">
+                <IconStyle id="276">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="277">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <Style id="286">
+                <IconStyle id="287">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="288">
+                        <href/>
+                    </Icon>
+                </IconStyle>
+            </Style>
+            <name>Mark</name>
+            <Placemark id="21">
+                <name>0001</name>
+                <styleUrl>#22</styleUrl>
+                <Point id="20">
+                    <coordinates>150.1100889171,-30.5851851589,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="34">
+                <name>0001</name>
+                <styleUrl>#35</styleUrl>
+                <Point id="33">
+                    <coordinates>150.131823944,-30.5597366489,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="45">
+                <name>0002</name>
+                <styleUrl>#46</styleUrl>
+                <Point id="44">
+                    <coordinates>150.1119839852,-30.5863970765,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="58">
+                <name>0002</name>
+                <styleUrl>#59</styleUrl>
+                <Point id="57">
+                    <coordinates>150.1370616332,-30.5570326393,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="69">
+                <name>0003</name>
+                <styleUrl>#70</styleUrl>
+                <Point id="68">
+                    <coordinates>150.1130429199,-30.5885876945,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="82">
+                <name>0003</name>
+                <styleUrl>#83</styleUrl>
+                <Point id="81">
+                    <coordinates>150.1431346226,-30.553349444,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="93">
+                <name>0004</name>
+                <styleUrl>#94</styleUrl>
+                <Point id="92">
+                    <coordinates>150.1149380912,-30.5897995751,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="106">
+                <name>0004</name>
+                <styleUrl>#107</styleUrl>
+                <Point id="105">
+                    <coordinates>150.1475361731,-30.5516239289,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="117">
+                <name>0005</name>
+                <styleUrl>#118</styleUrl>
+                <Point id="116">
+                    <coordinates>150.1159971251,-30.5919901746,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="130">
+                <name>0005</name>
+                <styleUrl>#131</styleUrl>
+                <Point id="129">
+                    <coordinates>150.1502666333,-30.5518562874,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="141">
+                <name>0006</name>
+                <styleUrl>#142</styleUrl>
+                <Point id="140">
+                    <coordinates>150.1178923996,-30.593202018,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="154">
+                <name>0006</name>
+                <styleUrl>#155</styleUrl>
+                <Point id="153">
+                    <coordinates>150.1521616373,-30.5530676151,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="165">
+                <name>0007</name>
+                <styleUrl>#166</styleUrl>
+                <Point id="164">
+                    <coordinates>150.1197877225,-30.5944138366,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="178">
+                <name>0007</name>
+                <styleUrl>#179</styleUrl>
+                <Point id="177">
+                    <coordinates>150.1540566895,-30.554278918,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="189">
+                <name>0008</name>
+                <styleUrl>#190</styleUrl>
+                <Point id="188">
+                    <coordinates>150.1216830936,-30.5956256304,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="202">
+                <name>0008</name>
+                <styleUrl>#203</styleUrl>
+                <Point id="201">
+                    <coordinates>150.1559517899,-30.5554901959,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="213">
+                <name>0009</name>
+                <styleUrl>#214</styleUrl>
+                <Point id="212">
+                    <coordinates>150.1319393322,-30.5870491614,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="226">
+                <name>0009</name>
+                <styleUrl>#227</styleUrl>
+                <Point id="225">
+                    <coordinates>150.1578469385,-30.5567014491,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="237">
+                <name>0010</name>
+                <styleUrl>#238</styleUrl>
+                <Point id="236">
+                    <coordinates>150.1371785533,-30.5843452499,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="250">
+                <name>0010</name>
+                <styleUrl>#251</styleUrl>
+                <Point id="249">
+                    <coordinates>150.1572356895,-30.560849866,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="261">
+                <name>0011</name>
+                <styleUrl>#262</styleUrl>
+                <Point id="260">
+                    <coordinates>150.1399098822,-30.5845778814,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="274">
+                <name>0011</name>
+                <styleUrl>#275</styleUrl>
+                <Point id="273">
+                    <coordinates>150.1582954448,-30.5630401695,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="285">
+                <name>0012</name>
+                <styleUrl>#286</styleUrl>
+                <Point id="284">
+                    <coordinates>150.1434770931,-30.5838315192,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Placemark id="15">
+            <description>Start 0001</description>
+            <styleUrl>#16</styleUrl>
+            <Point id="14">
+                <coordinates>150.1100889171,-30.5851851589,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="28">
+            <description>Start 0001</description>
+            <styleUrl>#29</styleUrl>
+            <Point id="27">
+                <coordinates>150.131823944,-30.5597366489,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <description>Start 0002</description>
+            <styleUrl>#40</styleUrl>
+            <Point id="38">
+                <coordinates>150.1119839852,-30.5863970765,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="52">
+            <description>Start 0002</description>
+            <styleUrl>#53</styleUrl>
+            <Point id="51">
+                <coordinates>150.1370616332,-30.5570326393,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="63">
+            <description>Start 0003</description>
+            <styleUrl>#64</styleUrl>
+            <Point id="62">
+                <coordinates>150.1130429199,-30.5885876945,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="76">
+            <description>Start 0003</description>
+            <styleUrl>#77</styleUrl>
+            <Point id="75">
+                <coordinates>150.1431346226,-30.553349444,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="87">
+            <description>Start 0004</description>
+            <styleUrl>#88</styleUrl>
+            <Point id="86">
+                <coordinates>150.1149380912,-30.5897995751,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="100">
+            <description>Start 0004</description>
+            <styleUrl>#101</styleUrl>
+            <Point id="99">
+                <coordinates>150.1475361731,-30.5516239289,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="111">
+            <description>Start 0005</description>
+            <styleUrl>#112</styleUrl>
+            <Point id="110">
+                <coordinates>150.1159971251,-30.5919901746,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="124">
+            <description>Start 0005</description>
+            <styleUrl>#125</styleUrl>
+            <Point id="123">
+                <coordinates>150.1502666333,-30.5518562874,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="135">
+            <description>Start 0006</description>
+            <styleUrl>#136</styleUrl>
+            <Point id="134">
+                <coordinates>150.1178923996,-30.593202018,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="148">
+            <description>Start 0006</description>
+            <styleUrl>#149</styleUrl>
+            <Point id="147">
+                <coordinates>150.1521616373,-30.5530676151,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="159">
+            <description>Start 0007</description>
+            <styleUrl>#160</styleUrl>
+            <Point id="158">
+                <coordinates>150.1197877225,-30.5944138366,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="172">
+            <description>Start 0007</description>
+            <styleUrl>#173</styleUrl>
+            <Point id="171">
+                <coordinates>150.1540566895,-30.554278918,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="183">
+            <description>Start 0008</description>
+            <styleUrl>#184</styleUrl>
+            <Point id="182">
+                <coordinates>150.1216830936,-30.5956256304,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="196">
+            <description>Start 0008</description>
+            <styleUrl>#197</styleUrl>
+            <Point id="195">
+                <coordinates>150.1559517899,-30.5554901959,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="207">
+            <description>Start 0009</description>
+            <styleUrl>#208</styleUrl>
+            <Point id="206">
+                <coordinates>150.1319393322,-30.5870491614,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="220">
+            <description>Start 0009</description>
+            <styleUrl>#221</styleUrl>
+            <Point id="219">
+                <coordinates>150.1578469385,-30.5567014491,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="231">
+            <description>Start 0010</description>
+            <styleUrl>#232</styleUrl>
+            <Point id="230">
+                <coordinates>150.1371785533,-30.5843452499,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="244">
+            <description>Start 0010</description>
+            <styleUrl>#245</styleUrl>
+            <Point id="243">
+                <coordinates>150.1572356895,-30.560849866,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="255">
+            <description>Start 0011</description>
+            <styleUrl>#256</styleUrl>
+            <Point id="254">
+                <coordinates>150.1399098822,-30.5845778814,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="268">
+            <description>Start 0011</description>
+            <styleUrl>#269</styleUrl>
+            <Point id="267">
+                <coordinates>150.1582954448,-30.5630401695,790.32</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="279">
+            <description>Start 0012</description>
+            <styleUrl>#280</styleUrl>
+            <Point id="278">
+                <coordinates>150.1434770931,-30.5838315192,790.32</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
