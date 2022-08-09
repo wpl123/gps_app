@@ -1,13 +1,16 @@
 dbfpy
 exif
 exifread
+geopandas
 gpxpy
 itertools
+json
 numpy
 opencv-python
 pandas
 piexif
 Pillow
+PyGeodesy
 pyexiftool
 shapefile
 simplekml

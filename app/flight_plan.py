@@ -114,8 +114,12 @@ def get_waypts():
     return strip_list
         
 
-if __name__ == "__main__":
+
+def main():
     
     waypoints = get_waypts()
     write_kml(waypoints)
     
+    
+if __name__ == "__main__":
+    main()    
