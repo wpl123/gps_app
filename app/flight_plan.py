@@ -1,9 +1,14 @@
-
+import os, sys
 import itertools
 import shapefile
 
 from simplekml import Kml, Style
 
+
+#https://stackoverflow.com/questions/1260792/import-a-file-from-a-subdirectory#%E2%80%A6
+sys.path.extend([f'./{name}' for name in os.listdir(".") if os.path.isdir(name)])
+
+from flutils import *
 #TODO: add arguments
 
 
@@ -30,7 +35,7 @@ def write_kml(waypts):
     iterators  = itertools.cycle(waypts)
     next_waypt = next(iterators)
     linecoords = []
-    no_recs = len(waypoints)
+    no_recs = len(waypts)
     i = 0
     for prev_waypt in waypts:
             
@@ -117,6 +122,10 @@ def get_waypts():
 
 def main():
     
+    logs_dir = "/home/admin/dockers/ODM/gps_app/data/logs/"
+    prefix   = "flight_plan_"
+    setupLogging(logs_dir, prefix)
+	
     waypoints = get_waypts()
     write_kml(waypoints)
     

@@ -59,9 +59,9 @@ def moveFile(fnm, dnm, action='move'):
         return False
 
     
-def setupLogging(logs_dir):
+def setupLogging(logs_dir,prefix=''):
     
-    logfile = logs_dir + str(datetime.datetime.now().strftime('%Y%m%d%H%M%S')) + ".log"
+    logfile = logs_dir + prefix + str(datetime.datetime.now().strftime('%Y%m%d%H%M%S')) + ".log"
     logger = logging
     logger.basicConfig(filename=logfile,level=logging.INFO)
     logger.info('-' * 80)

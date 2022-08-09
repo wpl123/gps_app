@@ -389,7 +389,8 @@ def main():
 	move_failled = 0
  
 	logs_dir = "/home/admin/dockers/ODM/gps_app/data/logs/"
-	setupLogging(logs_dir)
+	prefix   = "layer_file_"
+	setupLogging(logs_dir, prefix)
 	write_log('Running load_track_points ')
 	df_points = load_track_points(GPS_LOGGER_TRACK_FILE)
 	write_log('Running get_img_files ')
