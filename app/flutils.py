@@ -67,7 +67,7 @@ def setupLogging(logs_dir,prefix=''):
     logger.info('-' * 80)
     logger.info(inspect.stack()[0][3] + ' Logging started at ' + datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S'))
     logger.info('-' * 80)
-
+    return logfile
 
 def write_log(log_message): #TODO: Add DEBUG, INFO support    
     logging.info(inspect.stack()[1][3] + ' ' + log_message + ' at ' + datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S'))
