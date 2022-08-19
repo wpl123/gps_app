@@ -98,7 +98,64 @@ Back in the office;
 
 Note: make_layer_files.py uses the timestamp of the waypoint and the image to update EXIF record in each image
 
-# Step 4: Run WebODM with the updated Gopro images 
+# Step 4: Creating Ground Control Points (GCP) to use with WebODM
+
+## Create GCP in QGIS
+Great Primer here on the benefits of 'fake' GCP's 
+https://youtu.be/0oXkQaccCRc
+
+In QGIS create a Shapefile. 
+ - Layer → Create Layer  → New Shapefile Layer
+
+Now create the GCP points in the Shapefile
+ - Highlight the new Shapefile layer
+ - Click on editing mode   <img title="Editing Mode" alt="Editing Mode" src="readme_images/edit_mode_button.png">  then click on points  <img title="Add Points" alt="Add Points" src="readme_images/add_points_button.png"> 
+ - **Click on high contrast points. At least 3 points in 5 photos, depending on the number of images to be processed**         
+ - When finished adding GCP's --> Right Click on the layer and Click on Save Layer Edits to create a new layer “Added geom info”
+ 
+Add gps data to the newly created Shapefile
+ - Highlight the new Shapefile Layer
+ - Right Click on “Added geom info” layer → Export → ESRI Shapefile → gcp_add_geom.shp
+ - Right Click on “Added geom info” layer → Export → CSV
+   - Add file name gcp_points.csv, 
+   - Click Geometry change Automatic to Point
+   - Change the CRS. To the Project CRS e.g. EPSG:3857
+   - Click OK
+
+ - Edit the csv file to the GCP text file format
+ - Find the gcp_points.csv file and copy it to gcp_file.txt.  
+ - Edit the file to look like the layout below
+
+<img title="Valid GCP CSV File" alt="Valid CSV GCP File" src="readme_images/valid_gcp_file_format.png">          
+ 
+*Note: If gcp_file.txt includes gcps that are outside the images to be loaded into WebODM, it will fail. Use make_gcp.py to create a new file with only the gcps that map to the images in the sub-directory to be loaded.*
+
+## Map the GCP's in WebODM's GCP Editor
+
+Good content on this process here --> https://youtu.be/axuVvRU8t54
+
+Open WebODM Dashboard → GCP Interface
+ - Customise the maps base layer 
+
+ <img title="Customise Base Layer" alt="Customise Base Layer" src="readme_images/google_maps_baselayer.png">  
+
+   - On the Map area Select the Map Provider → Custom and enter the link → https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+   - Click Apply.  Minimise the Map Provider Box
+
+Add the GCP's and Images to the GCP Editor
+ - Drag the gcp_file.txt to the area marked Load Existing Control Points
+ - Click on “Load”
+ - Drag the selected photos to the area marked Select Photos
+ - Work through the gcps in the list → https://www.youtube.com/watch?v=5CEiyAn2J2s ,  https://www.youtube.com/watch?v=5CEiyAn2J2s
+ - Open each photo and create the GCP’s from Google Earth
+ - Export the GCP’s often and then compile the final file at the end gcp_file.txt.
+ - Select the gcp_file.txt with the images when loading the images for the WebODM run
+
+The file will look like;
+
+<img title="Valid GCP Text File" alt="Valid GCP Text File" src="readme_images/valid_gcp_file_txt.png">
+
+# Step 5: Run WebODM with the updated Gopro images 
 
 - Run the docker-compose.yml to create WebODM i.e. docker-compuse up -d
 - Go to https://community.opendronemap.org for a great community with help and advice to stitch the images together
