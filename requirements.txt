@@ -1,6 +1,7 @@
 dbfpy
 exif
 exifread
+gdal2tiles
 geopandas
 gpxpy
 itertools

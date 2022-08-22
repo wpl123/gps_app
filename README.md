@@ -2,17 +2,15 @@
 
 Project to create an ortho image using GoPro images captured from light aircraft. The Gopro is mounted below the wing. A android device running the GPS Logger app is located on the dash.
 
-Step 1: Create the flight plan using QGIS Flight Planner and create a kml to load into Google Earth. The flight plan can be followed in the cockpit in real time
+- Create the flight plan using QGIS Flight Planner and create a kml to load into Google Earth. The flight plan can be followed in the cockpit in real time
 
+- Carry out the flight plan and capture images with the GoPro
 
-Step 2: Carry out the flight plan and capture images with the GoPro
+- Extract the GPS waypoints from the GPS logger and update the Gopro images Exif fields
 
+- Run WebODM with the updated Gopro images to create the ortho rectified image
 
-Step 3: Extract the GPS waypoints from the GPS logger and update the Gopro images Exif fields
-
-
-Step 4: Run WebODM with the updated Gopro images to create the ortho rectified image
-
+- Add the images to Google Earth
 
 # Step 1
 
@@ -62,7 +60,8 @@ Step 4: Run WebODM with the updated Gopro images to create the ortho rectified i
     • Run flight_plan.py to create the kml file for the flight plan 
     • Drop and Drag the file “FlyoverWaypoints.kml” into Google Earth
 
-# Step 2: Carry out the flight plan and capture images with the GoPro
+# Step 2
+## Carry out the flight plan and capture images with the GoPro
 
 - At the airfield 
     - mount the gopro to the underside of the wing using a suction mount
@@ -75,9 +74,16 @@ Step 4: Run WebODM with the updated Gopro images to create the ortho rectified i
 
 <img title="GPS Logger App: Acquire Satellites & Tracking Screens" alt="Screenshot - GPS Logger App" src="readme_images/GPSLogger.png">
 
-- Use Google Earth with the flight plan layer created in Step 1 to fly the plan
+Notes:
 
-<img title="Fly the plan with Google Earth" alt="Screenshot - Fly the plan with Google Earth" src="readme_images/google_earth_flight_plan.png">
+- the above image shows 13/35 satellites and 8m accuracy when checking the app was functioning in the cockpit
+- However once the device was put on the dash, according to the gpx file the device could see between 16 and 22 satellites. This according to the app improves accuracy to 3m
+
+
+
+# Use Google Maps with the flight plan layer created in Step 1 to fly the plan
+
+<img title="Fly the plan with Google Maps" alt="Screenshot - Fly the plan with Google Mapsh" src="readme_images/google_earth_maps_plan.png">
 
 Notes:
 
@@ -88,7 +94,8 @@ Notes:
     - This allows calculation of total photo storage required for the flight (incl ferry time) 
 
 
-# Step 3: Extract the GPS waypoints from the GPS logger and update the Gopro images Exif fields
+# Step 3 
+## Extract the GPS waypoints from the GPS logger and update the Gopro images Exif fields
 
 Back in the office;
 - Save the images from the Gopro to the computer hard drive
@@ -98,7 +105,8 @@ Back in the office;
 
 Note: make_layer_files.py uses the timestamp of the waypoint and the image to update EXIF record in each image
 
-# Step 4: Creating Ground Control Points (GCP) to use with WebODM
+# Step 4 
+## Creating Ground Control Points (GCP) to use with WebODM
 
 ## Create GCP in QGIS
 Great Primer here on the benefits of 'fake' GCP's 
@@ -155,9 +163,33 @@ The file will look like;
 
 <img title="Valid GCP Text File" alt="Valid GCP Text File" src="readme_images/valid_gcp_file_txt.png">
 
-# Step 5: Run WebODM with the updated Gopro images 
+# Step 5
+## Run WebODM with the updated Gopro images 
 
 - Run the docker-compose.yml to create WebODM i.e. docker-compuse up -d
 - Go to https://community.opendronemap.org for a great community with help and advice to stitch the images together
 
 
+# Step 6
+## Break the geotif into tiles for memory efficient loading over the internet
+
+- Install gdal --> https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html
+- make a directory to contain the image pyramid
+- run gdal2tiles  on the geotif python --> './venv/bin/gdal2tiles.py '/home/admin/dockers/ODM/mine1/Maules-Creek-Mine-03-08-2022-orthophoto.tif' '/home/admin/dockers/ODM/mine1/gmtiles/' -p geodetic -k'
+- this will create a directory structure and a kml file doc.kml that can be dropped into Google Earth
+
+
+# Step 7
+## Load the kml tiles into Google Earth
+- Save the image pyramid directory from Step 6 to a place accessible to Google Earth
+- Start Google Earth
+- Open the folder where the doc.kml file resides
+- Click on doc.kml and drag it onto the Google Earth Canvas
+- Google Earth should rotate to the area of interest and open the top images in the pyramid
+
+
+# Step 8
+## Load the geotif to Google Maps
+
+https://developers.google.com/maps/documentation/javascript/customoverlays#typescript_5
+https://developers.google.com/maps/documentation/javascript/examples/maptype-image-overlay
