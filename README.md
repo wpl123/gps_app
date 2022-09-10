@@ -57,7 +57,7 @@ Project to create an ortho image using GoPro images captured from light aircraft
     • Make Permanent the Added Fields Layer to a ESRI Shapefile. 
         ◦ Ensure all fields are ticked. 
     • Copy the new coordinates file “AddedFields.dbf” to vm-docker 
-    • Run flight_plan.py to create the kml file for the flight plan 
+    • Run make_flight_plan.py to create the kml file for the flight plan 
     • Drop and Drag the file “FlyoverWaypoints.kml” into Google Earth
 
 # Step 2
@@ -102,6 +102,7 @@ Back in the office;
 - Download the GPS Logger waypoint file to the hard drive
 - Update the directory location of the saved images and the filename of the GPS waypoint file in make_layer_files.py
 - Run make_layer_files.py
+- Optional Cehck for blurry photos using delete del_blurry_img.py. this will move files into a 'blurry' subdirectory and create a kml with gpps points of the photos removed
 
 Note: make_layer_files.py uses the timestamp of the waypoint and the image to update EXIF record in each image
 
@@ -121,8 +122,10 @@ Now create the GCP points in the Shapefile
  - **Click on high contrast points. At least 3 points in 5 photos, depending on the number of images to be processed**         
  - When finished adding GCP's --> Right Click on the layer and Click on Save Layer Edits to create a new layer “Added geom info”
  
+*Or use the field calculator to add the x and y fields*
+
 Add gps data to the newly created Shapefile
- - Highlight the new Shapefile Layer
+ 
  - Right Click on “Added geom info” layer → Export → ESRI Shapefile → gcp_add_geom.shp
  - Right Click on “Added geom info” layer → Export → CSV
    - Add file name gcp_points.csv, 
