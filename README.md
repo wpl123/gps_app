@@ -21,9 +21,10 @@ Project to create an ortho image using GoPro images captured from light aircraft
 <img title="Area of Interest" alt="Screenshot - QGIS Polygon" src="readme_images/area_of_interest.png">
 
 - Right Click on the new AOI layer to;
-    - Make Permanent the AOI layer to a ESRI Shapefile. 
-    - Select Properties → symbology to change the color and opacity
+    - Export the AOI layer to a ESRI Shapefile. 
     - Ensure all fields are ticked and that CPRS is set to EPSG:28356
+    - Save
+- Select Properties → symbology to change the color and opacity    
 - Create a Group and move the new Shape into the Group
 
 
